@@ -27,7 +27,7 @@ const Header = () => {
                 <li>
                   <a
                     href="#"
-                    className="font-normal text-base font-serif nav-bar not-italic"
+                    className="font-normal text-base font-serif nav-bar not-italic before:bg-gradient-to-r from-orange-400 to-orange-700 hover:bg-gradient-to-r from-orange-400 to-orange-700"
                   >
                     Home
                   </a>
@@ -35,7 +35,7 @@ const Header = () => {
                 <li>
                   <a
                     href="#"
-                    className="font-normal text-base font-serif nav-bar not-italic"
+                    className="font-normal text-base font-serif nav-bar not-italic before:bg-gradient-to-r from-orange-400 to-orange-700 hover:bg-gradient-to-r from-orange-400 to-orange-700"
                   >
                     Modules
                   </a>
@@ -43,7 +43,7 @@ const Header = () => {
                 <li>
                   <a
                     href="#"
-                    className="font-normal text-base font-serif nav-bar not-italic"
+                    className="font-normal text-base font-serif nav-bar not-italic before:bg-gradient-to-r from-orange-400 to-orange-700 hover:bg-gradient-to-r from-orange-400 to-orange-700"
                   >
                     Pricing
                   </a>
@@ -51,7 +51,7 @@ const Header = () => {
                 <li>
                   <a
                     href="#"
-                    className="font-normal text-base font-serif nav-bar not-italic"
+                    className="font-normal text-base font-serif nav-bar not-italic before:bg-gradient-to-r from-orange-400 to-orange-700 hover:bg-gradient-to-r from-orange-400 to-orange-700"
                   >
                     Features
                   </a>
@@ -59,7 +59,7 @@ const Header = () => {
                 <li className=" items-center flex gap-x-11 font-normal text-base font-serif">
                   <a
                     href="#"
-                    className="font-normal text-base font-serif nav-bar not-italic"
+                    className="font-normal text-base font-serif nav-bar not-italic before:bg-gradient-to-r from-orange-400 to-orange-700 hover:bg-gradient-to-r from-orange-400 to-orange-700"
                   >
                     Contact Us
                   </a>
@@ -72,7 +72,7 @@ const Header = () => {
         <div className="grow flex items-center">
           <div className="container mx-auto px-3 relative">
             <div className="center-text">
-              <h1 className="heading-1 text-center mt-10 text-6xl font-extrabold not-italic">
+              <h1 className="heading-1 text-center mt-10 md:text-6xl text-4xl font-extrabold not-italic">
                 Maitre D – Store Management for Barbers
               </h1>
               <div className="mt-10 center-text">

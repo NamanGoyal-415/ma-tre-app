@@ -3,14 +3,20 @@ import Header from "./Components/Header";
 import SectionOne from "./Components/SectionOne";
 import SectionTwo from "./Components/SectionTwo";
 import SectionThree from "./Components/SectionThree";
+import SectionFour from './Components/SectionFour';
+import SectionFive from './Components/SectionFive';
+import Footer from './Components/Footer';
 
 function App() {
   return (
     <>
       <Header />
       <SectionOne />
-      <SectionTwo/>
-      <SectionThree/>
+      <SectionTwo />
+      <SectionThree />
+      <SectionFour />
+      <SectionFive />
+      <Footer />
     </>
   );
 }

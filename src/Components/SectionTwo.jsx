@@ -3,12 +3,12 @@ import React from "react";
 function SectionTwo() {
   return (
     <>
-      <section className="bgimg-white">
+      <section className="bgimg-white overflow-x-hidden">
         <div className="container mx-auto px-3 pt-20">
-          <h2 className="S2-head text-gradiant text-center font-semibold not-italic text-base relative">
+          <h2 className="S2-head text-center font-semibold not-italic text-base relative bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-500">
             Features
           </h2>
-          <h3 className="S2-heading ff-work fs-lg font-bold text-center pb-24">
+          <h3 className="S2-heading ff-work text-2xl sm:text-4xl font-bold text-center pb-24">
             Why Choose <span className="text-gradiant">Maître D?</span>
           </h3>
           <div className="flex-row flex flex-wrap my-0 mx-3 justify-center">
@@ -40,7 +40,7 @@ function SectionTwo() {
                   effortlessly
                 </p>
                 <svg
-                  class="moon"
+                  class="moon absolute right-0 bottom-0 transition-all"
                   xmlns="http://www.w3.org/2000/svg"
                   width="136"
                   height="125"
@@ -56,7 +56,7 @@ function SectionTwo() {
                   />
                 </svg>
                 <svg
-                  class="moon-2"
+                  class="moon-2 absolute right-0 bottom-0 transition-all"
                   xmlns="http://www.w3.org/2000/svg"
                   width="100"
                   height="92"
@@ -126,7 +126,7 @@ function SectionTwo() {
                   See everything inside your <br /> business in real time.
                 </p>
                 <svg
-                  class="moon"
+                  class="moon absolute right-0 bottom-0 transition-all"
                   xmlns="http://www.w3.org/2000/svg"
                   width="136"
                   height="125"
@@ -142,7 +142,7 @@ function SectionTwo() {
                   />
                 </svg>
                 <svg
-                  class="moon-2"
+                  class="moon-2 absolute right-0 bottom-0 transition-all"
                   xmlns="http://www.w3.org/2000/svg"
                   width="100"
                   height="92"
@@ -187,7 +187,7 @@ function SectionTwo() {
                   price.
                 </p>
                 <svg
-                  class="moon"
+                  class="moon absolute right-0 bottom-0 transition-all"
                   xmlns="http://www.w3.org/2000/svg"
                   width="136"
                   height="125"
@@ -203,7 +203,7 @@ function SectionTwo() {
                   />
                 </svg>
                 <svg
-                  class="moon-2"
+                  class="moon-2 absolute right-0 bottom-0 transition-all"
                   xmlns="http://www.w3.org/2000/svg"
                   width="100"
                   height="92"
@@ -220,7 +220,9 @@ function SectionTwo() {
                 </svg>
               </div>
             </div>
-            <button className="S2-btn py-3 px-9 inline-flex justify-center items-center gap-2 border-none duration-300 ease-in-out text-white text-center ff-work text-xl font-bold hover:scale-90 mt-11 mb-24">
+          </div>
+          <div className="flex justify-center">
+            <button className="S2-btn py-3 px-9 border-none duration-300 ease-in-out text-white ff-work text-xl font-bold hover:scale-90 mt-11 mb-24">
               Sign Up Today
             </button>
           </div>
