@@ -23,7 +23,7 @@ const Footer = () => {
               Navigation
             </a>
             <a
-              href="https://greenfox.dev/"
+              href="#"
               target="_blank"
               class="footer-nav text-white text-center ff-work text-sm not-italic font-semibold no-underline"
             >
