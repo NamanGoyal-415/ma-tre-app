@@ -7,7 +7,7 @@ import Slider from "react-slick";
 const NextArrow = ({ onClick }) => {
   return (
     <button
-      className=" next w-8 h-8 absolute right-[-1.5rem] top-1/3 hover:scale-90 duration-300"
+      className=" next lg:block hidden w-8 h-8 absolute right-[-1.5rem] top-1/3 hover:scale-90 duration-300"
       onClick={onClick}
     >
       <svg
@@ -45,7 +45,7 @@ const NextArrow = ({ onClick }) => {
 const PrevArrow = ({ onClick }) => {
   return (
     <button
-      className="prev w-8 h-8 absolute left-[-30px] top-1/3 hover:scale-90 duration-300"
+      className="prev lg:block hidden w-8 h-8 absolute left-[-30px] top-1/3 hover:scale-90 duration-300"
       onClick={onClick}
     >
       <svg
@@ -103,7 +103,7 @@ const SectionThree = () => {
     fade: true,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1200,
         settings: {
           infinite: true,
           dots: false,
@@ -117,7 +117,7 @@ const SectionThree = () => {
 
   return (
     <>
-      <section>
+      <section id="three">
         <div className="container mx-auto px-3 relative">
           <h2 className="S3-head text-center font-semibold not-italic text-base relative bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-500">
             Modules

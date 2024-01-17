@@ -3,7 +3,7 @@ import React from "react";
 const SectionFour = () => {
   return (
     <>
-      <section className="my-10">
+      <section className="my-10" id="four">
         <div className="container mx-auto px-3">
           <h2 className="S4-head bg-gradient-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent text-center font-semibold not-italic text-base relative">
             Pricing

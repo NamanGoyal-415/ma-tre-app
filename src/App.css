@@ -6,6 +6,7 @@
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -312,6 +313,27 @@
   height: 400px;
 }
 
+.grey-circle-big {
+  width: 116px;
+  height: 116px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.11);
+}
+
+.grey-circle-small {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.11);
+}
+
+.grey-circle-middle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.11);
+}
+
 @media (max-width:992px) {
 
   .max-484,
@@ -369,11 +391,6 @@
   .arrow {
     left: 26%;
     top: 63%;
-  }
-
-  .prev,
-  .next {
-    display: none;
   }
 }
 

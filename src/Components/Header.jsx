@@ -11,7 +11,7 @@ const Header = () => {
         <nav className="py-6">
           <div className="container mx-auto px-3">
             <div className="flex justify-between items-center">
-              <div className="flex items-center">
+              <div className="flex items-center cursor-pointer">
                 <img src={logo} alt="pagelogo" />
                 <h3 className="ml-3 mt-1.5 pagelogo ff-work font-serif text-2xl text-center font-normal not-italic">
                   maître d
@@ -26,7 +26,7 @@ const Header = () => {
               <ul className="flex items-center gap-x-11 menubar">
                 <li>
                   <a
-                    href="#"
+                    href="#home"
                     className="font-normal text-base font-serif nav-bar not-italic before:bg-gradient-to-r from-orange-400 to-orange-700 hover:bg-gradient-to-r from-orange-400 to-orange-700"
                   >
                     Home
@@ -34,7 +34,7 @@ const Header = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="#three"
                     className="font-normal text-base font-serif nav-bar not-italic before:bg-gradient-to-r from-orange-400 to-orange-700 hover:bg-gradient-to-r from-orange-400 to-orange-700"
                   >
                     Modules
@@ -42,7 +42,7 @@ const Header = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="#four"
                     className="font-normal text-base font-serif nav-bar not-italic before:bg-gradient-to-r from-orange-400 to-orange-700 hover:bg-gradient-to-r from-orange-400 to-orange-700"
                   >
                     Pricing
@@ -50,7 +50,7 @@ const Header = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="#two"
                     className="font-normal text-base font-serif nav-bar not-italic before:bg-gradient-to-r from-orange-400 to-orange-700 hover:bg-gradient-to-r from-orange-400 to-orange-700"
                   >
                     Features
@@ -58,19 +58,19 @@ const Header = () => {
                 </li>
                 <li className=" items-center flex gap-x-11 font-normal text-base font-serif">
                   <a
-                    href="#"
+                    href="#five"
                     className="font-normal text-base font-serif nav-bar not-italic before:bg-gradient-to-r from-orange-400 to-orange-700 hover:bg-gradient-to-r from-orange-400 to-orange-700"
                   >
                     Contact Us
                   </a>
-                  <img src={searchicon} alt="search-icon" />
+                  <img className=" cursor-pointer" src={searchicon} alt="search-icon" />
                 </li>
               </ul>
             </div>
           </div>
         </nav>
         <div className="grow flex items-center">
-          <div className="container mx-auto px-3 relative">
+          <div className="container mx-auto px-3 relative" id="home">
             <div className="center-text">
               <h1 className="heading-1 text-center mt-10 md:text-6xl text-4xl font-extrabold not-italic">
                 Maitre D – Store Management for Barbers

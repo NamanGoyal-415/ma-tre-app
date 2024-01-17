@@ -3,7 +3,7 @@ import React from "react";
 function SectionTwo() {
   return (
     <>
-      <section className="bgimg-white overflow-x-hidden">
+      <section className="bgimg-white overflow-x-hidden" id="two">
         <div className="container mx-auto px-3 pt-20">
           <h2 className="S2-head text-center font-semibold not-italic text-base relative bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-500">
             Features
