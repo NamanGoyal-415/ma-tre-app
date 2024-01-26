@@ -5,7 +5,7 @@ const SectionOne = () => {
     <>
       <section>
         <div className="container mx-auto px-3">
-          <div className="flex-row flex flex-wrap my-0 mx-3 justify-center pt-52">
+          <div className="flex-row flex flex-wrap mx-3 justify-center pt-52">
             <div className="lg:w-1/2 px-3">
               <img className="w-fit" src={mobileapp} alt="mobli-app" />
             </div>

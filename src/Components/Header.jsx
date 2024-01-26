@@ -56,14 +56,20 @@ const Header = () => {
                     Features
                   </a>
                 </li>
-                <li className=" items-center flex gap-x-11 font-normal text-base font-serif">
+                <li className=" items-center lg:flex block gap-x-11 font-normal text-base font-serif">
                   <a
                     href="#five"
                     className="font-normal text-base font-serif nav-bar not-italic before:bg-gradient-to-r from-orange-400 to-orange-700 hover:bg-gradient-to-r from-orange-400 to-orange-700"
                   >
                     Contact Us
                   </a>
-                  <img className=" cursor-pointer" src={searchicon} alt="search-icon" />
+                  <a className="center-text pt-1">
+                    <img
+                      className=" cursor-pointer"
+                      src={searchicon}
+                      alt="search-icon"
+                    />
+                  </a>
                 </li>
               </ul>
             </div>
